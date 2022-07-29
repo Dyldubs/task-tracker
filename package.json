@@ -3,12 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "serve": "vue-cli-service serve --ignore client",
+    "build": "vue-cli-service build",
+    "backend": "json-server --watch db.json --port 5000"
   },
   "dependencies": {
+    "concurrently": "^7.2.2",
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "http-proxy-middleware": "^2.0.6",
+    "json-server": "^0.17.0",
+    "serve": "^13.0.4",
+    "vue": "^3.2.13",
+    "vue-router": "^4.0.13"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.0",
