@@ -13,10 +13,10 @@
       "reminder": true
     },
     {
-      "id": 3,
       "text": "Study at Library",
       "day": "July 9th at 9:00am",
-      "reminder": false
+      "reminder": false,
+      "id": 3
     }
   ]
 }
